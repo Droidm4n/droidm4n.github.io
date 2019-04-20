@@ -382,6 +382,9 @@
                 <script src="../../demo-style/js/main.js"></script>
 
                 <script type="text/javascript">
+
+                    document.addEventListener('contextmenu', event => event.preventDefault());
+
                     $(document).ready(customizer.init({
                         colors: {
                             title: 'COLORS:',
